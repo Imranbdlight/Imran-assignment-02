@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* shared styles */
+  .display-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        
+  }
+
+  /* navbar related styles */
+  .nav-item-1{
+    max-width: 202px;
+    margin:  20px 186px 20px 141px;
+
+  }
+  .nab-item-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(17, 17, 17, 1);
+  }
+
+  .nav-item-2{
+    
+  }
+  .navlist{
+    list-style: none;
+   margin-right: 30px;
+  }
+  .navlink{
+    text-decoration: none;
+  }
+  .Home{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(254, 163, 1, 1);
+  }
+  .About{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(1, 172, 253, 1);
+  }
+  .Facilities{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(5, 212, 223, 1);
+  }
+  .Admission{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(93, 88, 239, 1);
+    margin-right: 186px;
+  }
+ 
+  .btn-primary{
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    padding: 10px 60px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 12px;
+    margin-right: 141px;
+    border: none;
+  }
+  /* head section style */
+  .head{
+    margin-top: 10px;
+    margin-left: 141px;
+    margin-right: 140.39px;
+    margin-bottom: 10px;
+    /* max-width: 1158.61px; */
+    align-items: center;
+    
+  }
+  .headcontent{
+    padding-top: 122px;
+    padding-bottom: 122px;
+    padding-right: 50px;
+  }
+  .title{
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .t1{
+    color: rgba(254, 163, 1, 1);
+  }
+  .t2{
+    color: black;
+  }
+  .t3{
+    color: rgba(1, 172, 253, 1);
+  }
+  .description{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    /* padding: 24px 50px 24px 0px; */
+    margin: 24px auto;
+  }
+  .img-container img{
+    width: 100%;
+    max-width: 468px;
+    margin-right: 140.39px;
+  }
+  .btn-primary2{
+    background-color: black;
+    color: white;
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
